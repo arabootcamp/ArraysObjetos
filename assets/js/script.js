@@ -174,7 +174,7 @@ let createTable = (title, array) => {
 }
 
 for (let i = 0; i < 3; i++) {
-  let nodo = document.createElement('div');
-  nodo.innerHTML = createTable(map[i].title, map[i].array);
-  document.body.appendChild(nodo);
+  let nodoDiv = document.createElement('div');
+  nodoDiv.innerHTML = createTable(map[i].title, map[i].array);
+  document.body.appendChild(nodoDiv);
 }
