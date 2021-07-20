@@ -132,7 +132,7 @@ let dentalArray = [{
 ];
 
 /*Mapeo de los arreglos*/
-const map = [{
+let map = [{
     title: 'Radiología',
     array: radiologyArray
   },
